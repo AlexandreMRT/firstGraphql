@@ -1,0 +1,6 @@
+query {
+  personCount
+  allPersons {
+    name
+  }
+}

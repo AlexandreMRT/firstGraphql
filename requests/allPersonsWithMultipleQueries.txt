@@ -1,0 +1,8 @@
+query {
+  havePhone: allPersons(phone: YES){
+    name
+  }
+  phoneless: allPersons(phone: NO){
+    name
+  }
+}

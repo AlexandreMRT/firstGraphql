@@ -1,0 +1,16 @@
+mutation {
+  addPerson(
+    name: "Alexandre Teixeira"
+    phone: "11 9888 90105"
+    street: "Estrada de itapecerica"
+    city: "São Paulo"
+  ) {
+    name
+    phone
+    address{
+      city
+      street
+    }
+    id
+  }
+}

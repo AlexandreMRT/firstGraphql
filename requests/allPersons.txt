@@ -1,0 +1,10 @@
+query {
+  allPersons {
+    name
+    phone
+    address {
+      city 
+      street
+    }
+  }
+}

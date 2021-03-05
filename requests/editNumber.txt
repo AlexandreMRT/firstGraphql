@@ -1,0 +1,8 @@
+#run after addPerson
+
+mutation {
+  editNumber(name: "Alexandre Teixeira", phone: "11 24764431") {
+    name
+    phone
+  }
+}
